@@ -744,18 +744,17 @@ When using `textContentType` as `newPassword` on iOS we can let the OS know the 
 
 ### `style`
 
-Note that not all Text styles are supported, an incomplete list of what is not supported includes:
+Note that not all Text styles may be supported.  
+On Android, the following styling props are confirmed to not work as intended:
 
-- `borderLeftWidth`
-- `borderTopWidth`
-- `borderRightWidth`
-- `borderBottomWidth`
-- `borderTopLeftRadius`
-- `borderTopRightRadius`
-- `borderBottomRightRadius`
-- `borderBottomLeftRadius`
+- borderLeftColor
+- borderRightColor
+- borderBottomWidth
+- borderLeftWidth
+- borderRightWidth
+- borderTopWidth
 
-see [Issue#7070](https://github.com/facebook/react-native/issues/7070) for more detail.
+See [Issue#7070](https://github.com/facebook/react-native/issues/7070) and [Issue#30809](https://github.com/facebook/react-native/issues/30809) for more details.
 
 [Styles](style.md)
 
